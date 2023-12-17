@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 
-import { Navbar, Feed, SearchFeed, VideoDetail, ChanelDetail } from './components';
+import { Navbar, Feed, SearchFeed, VideoDetail, ChannelDetail } from './components';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
             <Route path="/" exact element={<Feed/>}/>
             <Route path="/video/:id" element={<VideoDetail/>}/>
-            <Route path="/chanel/:id" element={<ChanelDetail/>}/>
+            <Route path="/channel/:id" element={<ChannelDetail/>}/>
             <Route path="/search/:searchTerm" element={<SearchFeed/>}/>
         </Routes>
       </Box>
