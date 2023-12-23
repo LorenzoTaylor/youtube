@@ -33,7 +33,7 @@ const ChannelDetail = () => {
         marginTop='-110px'/>
       </Box>
       <Box display="flex" p="2">
-        <Box sx={{mr: { xs: '20vw', md: '150px'}}}/>
+        <Box sx={{ml: {xs:'10vw', sm: '30vw', md:'12vw'}}}/>
           <Videos videos={videos}/>
       </Box>
 
